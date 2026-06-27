@@ -34,10 +34,10 @@ export const experiences = [
     period: "2023 — Present",
     type: "Development",
     description: [
-      "Built full-stack web applications from concept to deployment using React, Laravel, and the MERN Stack",
+      "Built full-stack web applications using React, Laravel, and the MERN Stack",
       "Developed responsive, accessible user interfaces with modern design systems",
-      "Designed and consumed RESTful APIs, managed relational and document-based databases",
-      "Managed the complete project lifecycle — planning, development, testing, and deployment",
+      "Designed and consumed RESTful APIs, managed relational and databases",
+      "Managed the complete project planning, development, testing, and deployment",
     ],
   },
   {
@@ -58,7 +58,7 @@ export const experiences = [
     period: "2021 (1 month)",
     type: "Part-time",
     description: [
-      "Organized and displayed products to maintain a clean and appealing store layout",
+      "Organized and displayed products to maintain and appealing store layout",
       "Assisted with inventory management and stock organization",
       "Supported the daily operations of the store and contributed to team efficiency",
     ],
