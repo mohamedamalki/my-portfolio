@@ -69,8 +69,8 @@ export default function About() {
               <a href="mailto:mohamedamalki03@gmail.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-cyan-400 transition-colors glass px-3 py-2 rounded-lg">
                 <FiMail size={14} /> mohamedamalki03@gmail.com
               </a>
-              <a href="https://github.com/mohamed2001-dev" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-cyan-400 transition-colors glass px-3 py-2 rounded-lg">
-                <FiGithub size={14} /> mohamed2001-dev
+              <a href="https://github.com/mohamedamalki" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-sm text-slate-400 hover:text-cyan-400 transition-colors glass px-3 py-2 rounded-lg">
+                <FiGithub size={14} /> mohamedamalki
               </a>
             </div>
 

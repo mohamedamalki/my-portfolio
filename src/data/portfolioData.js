@@ -11,101 +11,55 @@ export const skills = [
     category: "Backend Development",
     icon: "FaServer",
     color: "purple",
-    items: ["PHP", "Laravel", "REST APIs", "Node.js", "Express.js"],
+    items: ["PHP", "Laravel", "REST APIs"],
   },
   {
     category: "Databases",
     icon: "FaDatabase",
     color: "cyan",
-    items: ["MySQL", "MongoDB", "Database Design", "Query Optimization"],
+    items: ["MySQL", "MongoDB"],
   },
   {
     category: "Tools & Workflow",
     icon: "FaTools",
     color: "purple",
-    items: ["Git", "GitHub", "VS Code", "Postman", "Agile Methodology", "Figma"],
+    items: ["Git", "GitHub", "Postman", "Agile Methodology"],
   },
 ];
 
 export const experiences = [
   {
-    title: "Full Stack Development Projects",
-    company: "Personal & Training Projects",
-    period: "2023 — Present",
-    type: "Development",
+    title: 'Full-Stack Developer Intern',
+    company: 'Optiza Workers',
+    period: 'Jul 2026 – Present',
+    type: 'Development',
     description: [
-      "Built full-stack web applications using React, Laravel, and the MERN Stack",
-      "Developed responsive, accessible user interfaces with modern design systems",
-      "Designed and consumed RESTful APIs, managed relational and databases",
-      "Managed the complete project planning, development, testing, and deployment",
+      'Developed a club management application covering players, coaches, and seasons.',
+      'Built a secure RESTful API for the application’s core features.',
+      'Designed an administrative dashboard to monitor club operations in real time.',
     ],
   },
   {
-    title: "Founder & Manager",
-    company: "Online E-commerce Store",
-    period: "2021 — 2024",
-    type: "Entrepreneurship",
+    title: 'Back-End Developer Intern',
+    company: 'Deweb Technology',
+    period: 'Jun 2026 – Jul 2026',
+    type: 'Development',
     description: [
-      "Founded and operated an independent e-commerce business, managing all operations end-to-end",
-      "Handled product listings, order management, customer relationships, and logistics",
-      "Leveraged social media platforms to drive traffic and grow a customer base",
-      "Monitored sales data, managed inventory, and continuously optimized store performance",
+      'Developed the back end of an After-Sales Service Team Work Order Management Application using Laravel and MySQL.',
+      'Built a RESTful API for the application.',
+      'Implemented secure authentication using Laravel Sanctum.',
     ],
   },
   {
-    title: "Store Assistant",
-    company: "Retail Store",
-    period: "2021 (1 month)",
-    type: "Part-time",
+    title: 'Freelance E-commerce — Men’s Fashion',
+    company: 'Self-employed',
+    period: '2021 – 2023',
+    type: 'Entrepreneurship',
     description: [
-      "Organized and displayed products to maintain and appealing store layout",
-      "Assisted with inventory management and stock organization",
-      "Supported the daily operations of the store and contributed to team efficiency",
+      'Sold men’s clothing through online sales channels.',
+      'Published and promoted products on digital platforms.',
+      'Managed orders, inventory, and delivery tracking.',
     ],
-  },
-];
-
-export const projects = [
-  {
-    title: "E-commerce Website with Admin Dashboard",
-    description:
-      "A full-featured online store with product listings, shopping cart, order management, and a secure admin dashboard for inventory and analytics.",
-    tech: ["React", "Laravel", "MySQL", "Tailwind CSS", "REST API"],
-    features: ["Product catalog & search", "Cart & checkout flow", "Admin inventory panel", "Order tracking", "Authentication"],
-    github: "https://github.com/mohamed2001-dev",
-    color: "cyan",
-  },
-  {
-  title: "Social Media App",
-  description:
-    "A full-stack social media application built with the MERN Stack, featuring user authentication, profile management, posts, likes, comments, and a modern responsive interface designed with Material UI.",
-  tech: ["React", "Node.js", "MongoDB", "Express", "Material UI"],
-  features: [
-    "User authentication",
-    "Create and manage posts",
-    "Like and comment system",
-    "User profile management",
-    "Responsive Material UI design",
-    "REST API integration"
-  ],
-    github: "https://github.com/mohamed2001-dev",
-    color: "purple",
-  },
-  {
-      title: "Prayer Times App",
-  description:
-    "A responsive prayer times application built with React and Tailwind CSS. The app uses a Prayer Times API to display accurate daily prayer times based on the selected city or location.",
-  tech: ["React", "Tailwind CSS", "Prayer Times API", "JavaScript"],
-  features: [
-    "Daily prayer times",
-    "City-based prayer schedule",
-    "API integration",
-    "Responsive design",
-    "Clean Islamic-themed interface",
-    "Fast and simple user experience"
-  ],
-    github: "https://github.com/mohamed2001-dev",
-    color: "cyan",
   },
 ];
 

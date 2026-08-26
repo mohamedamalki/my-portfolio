@@ -6,7 +6,6 @@ const roles = [
   'Full Stack Developer',
   'React Developer',
   'Laravel Developer',
-  'MERN Stack Developer',
 ];
 
 const terminalLines = [
@@ -57,8 +56,6 @@ export default function Hero() {
     return () => clearTimeout(timeout);
   }, [displayed, deleting, roleIdx]);
 
-  const scrollToProjects = () =>
-    document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
   const scrollToContact = () =>
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
 
@@ -106,13 +103,6 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-3 pt-2">
               <button
-                onClick={scrollToProjects}
-                className="px-6 py-3 rounded-xl font-semibold text-sm bg-gradient-to-r from-cyan-500 to-cyan-400 text-navy-900 hover:from-cyan-400 hover:to-cyan-300 transition-all duration-200 glow-cyan"
-                style={{ color: '#0A0F1E' }}
-              >
-                View Projects
-              </button>
-              <button
                 onClick={scrollToContact}
                 className="px-6 py-3 rounded-xl font-semibold text-sm glass border border-cyan-500/20 text-slate-200 hover:border-cyan-500/40 hover:text-white transition-all duration-200"
               >
@@ -125,7 +115,7 @@ export default function Hero() {
               <span className="text-slate-600 text-xs uppercase tracking-widest font-mono">Find me on</span>
               <div className="h-px flex-1 max-w-[40px] bg-slate-700" />
               <a
-                href="https://github.com/mohamed2001-dev"
+                href="https://github.com/mohamedamalki"
                 target="_blank"
                 rel="noreferrer"
                 className="text-slate-500 hover:text-white transition-colors duration-200"

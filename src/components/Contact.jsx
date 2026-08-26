@@ -80,8 +80,8 @@ export default function Contact() {
             <ContactInfo
               icon={FiGithub}
               label="GitHub"
-              value="github.com/mohamed2001-dev"
-              href="https://github.com/mohamed2001-dev"
+              value="github.com/mohamedamalki"
+              href="https://github.com/mohamedamalki"
               color="cyan"
             />
             <ContactInfo
