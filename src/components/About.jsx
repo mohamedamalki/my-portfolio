@@ -48,20 +48,11 @@ export default function About() {
             </div>
 
             <p className="text-slate-400 leading-relaxed">
-              I'm a dedicated Full Stack developer specializing in building modern, responsive web applications.
-              My technical foundation spans the full development spectrum — from crafting clean UIs with React
-              and Tailwind CSS to building robust APIs and database architectures with Laravel, Node.js, MySQL, and MongoDB.
+                I'm a Full-Stack Developer based in Agadir, specializing in modern and responsive web applications with React, Laravel, Node.js, and Tailwind CSS.
             </p>
+
             <p className="text-slate-400 leading-relaxed">
-              Beyond the code, I've built real-world business experience by founding and running my own
-              e-commerce operation — managing everything from product logistics to customer relationships
-              and sales analytics. That entrepreneurial background gives me a practical understanding of
-              what products actually need to solve.
-            </p>
-            <p className="text-slate-400 leading-relaxed">
-              I'm currently completing my Full Stack studies at OFPPT and actively building projects
-              with the MERN Stack, REST APIs. I'm open to internships,
-              junior roles, and freelance opportunities where I can contribute and keep growing.
+              My e-commerce experience has strengthened my understanding of real business needs. I'm open to junior roles, internships, and freelance opportunities where I can contribute and grow.
             </p>
 
             {/* Contact chips */}

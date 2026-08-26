@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import { useEffect, useState } from 'react';
-import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiArrowDown } from 'react-icons/fi';
 
 const roles = [
   'Full Stack Developer',
@@ -12,7 +12,7 @@ const terminalLines = [
   { prefix: '$', text: ' who i am', color: 'text-cyan-400', delay: 300 },
   { prefix: '>', text: ' Mohamed Amalki — Full Stack Dev', color: 'text-green-400', delay: 900 },
   { prefix: '$', text: ' Skills', color: 'text-cyan-400', delay: 1600 },
-  { prefix: '>', text: ' React · Laravel · MERN · APIs', color: 'text-purple-400', delay: 2200 },
+  { prefix: '>', text: ' React · Laravel · APIs', color: 'text-purple-400', delay: 2200 },
   { prefix: '$', text: ' location', color: 'text-cyan-400', delay: 2900 },
   { prefix: '>', text: ' Agadir, Morocco 🇲🇦', color: 'text-green-400', delay: 3500 },
   { prefix: '$', text: ' status', color: 'text-cyan-400', delay: 4200 },
@@ -96,9 +96,9 @@ export default function Hero() {
             </div>
 
             <p className="text-slate-400 leading-relaxed max-w-lg">
-              A motivated Full Stack developer from Agadir, Morocco, building modern web applications
-              with React, Laravel, and the MERN Stack. I focus on clean code, intuitive interfaces,
-              and scalable architecture — from first commit to final deploy.
+              Motivated Full-Stack Developer based in Agadir, Morocco, passionate about building modern,
+              responsive, and scalable web applications with React and Laravel.
+              I focus on clean code, intuitive user experiences, and reliable architecture—from the initial concept to final deployment.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">

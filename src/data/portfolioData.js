@@ -34,7 +34,7 @@ export const experiences = [
     period: 'Jul 2026 – Present',
     type: 'Development',
     description: [
-      'Developed a club management application covering players, coaches, and seasons.',
+      'Developed a club management application.',
       'Built a secure RESTful API for the application’s core features.',
       'Designed an administrative dashboard to monitor club operations in real time.',
     ],
